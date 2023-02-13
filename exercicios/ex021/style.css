@@ -1,0 +1,64 @@
+ body {
+     background-color: rgb(117, 117, 117);
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0px;
+ }
+
+ header {
+    background-color: #fff;
+    margin: 10px;
+    padding: 5px;
+ }
+
+ nav {
+    background-color: rgb(5, 41, 41);
+    padding: 3px;
+    margin: 10px;
+    text-align: center;
+ }
+
+ nav > a {
+    color: rgb(2, 1, 1);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px 30px;
+ }
+
+ nav > a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+
+ }
+
+ main {
+    background-color: #fff;
+    margin: 60px 10px;
+    padding: 10px;
+
+ }
+
+ .gols {
+    background-color: lightskyblue;
+ }
+
+ .cartoes {
+    background-color: blueviolet;
+    padding: 50px 50px;
+    margin: 5px;
+
+ }
+
+ article {
+    background-color: rgb(17, 141, 141);
+    padding: 10px 10px;
+    margin: 10px 10px;
+ }
+
+ footer {
+    background-color: rgb(5, 41, 41);
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 10px;
+    text-align: center;
+ } 
