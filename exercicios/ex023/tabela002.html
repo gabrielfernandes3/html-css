@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td,th {
@@ -32,6 +33,16 @@
             color: #fff;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgrey;
+        }
+
         td.num {
             text-align: right;
         }
@@ -39,13 +50,12 @@
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
-    <caption>População das unidades federativas</caption>
     <table>
-        <caption>População das unidades federativas</caption>
+        <caption>Poplação das Unidades Federativas do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -160,7 +170,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habtantes</th>
+                <th scope="row">Total de habtantes</th>
                 <td>0000</td>
             </tr>
         </tfoot>
