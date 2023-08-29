@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+  <header>
+    <h1>Meu Site</h1>
+    <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+    <menu id="itens">
+      <ul>
+        <li><a href="#">Opção </a></li>
+        <li><a href="#">Opção </a></li>
+        <li><a href="#">Opção </a></li>
+        <li><a href="#">Opção </a></li>
+        <li><a href="#">Opção </a></li>
+      </ul>
+    </menu>
+  </header>
+  <main>
+    <article>
+      <h2>Testando media queries</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ipsa animi distinctio molestias, corrupti velit nostrum dolore. Reiciendis corporis obcaecati beatae voluptates commodi facilis perferendis officia! A sequi quo sint.l Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ullam a consequatur expedita aperiam, deserunt odit voluptatum autem necessitatibus rerum laboriosam facilis qui commodi animi totam. Architecto dolorum suscipit odit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem et suscipit eligendi quo harum aliquid cumque earum vel placeat sapiente tempora quia voluptatibus quibusdam asperiores, eveniet cum aut? Illo, tempore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magni officia autem iure adipisci consequatur reprehenderit nihil velit beatae quis at laudantium explicabo aperiam porro non totam, hic blanditiis? Dolor!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt vitae repudiandae voluptates a cupiditate minus doloribus tempore commodi, saepe molestias praesentium nisi fugiat cum. Itaque hic nostrum accusantium modi nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magni officia autem iure adipisci consequatur reprehenderit nihil velit beatae quis at laudantium explicabo aperiam porro non totam, hic blanditiis? Dolor!</p>
+
+    </article>
+  </main>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == 'block') {
+          itens.style.display = 'none'
+      } else {
+          itens.style.display = 'block'
+      }
+    }
+  </script>
+</body>
+</html>
